@@ -55,10 +55,16 @@ Les attributs des capteurs « Dernier … » donnent l'action, le déclencheur, 
 
 ### Par HACS (recommandé)
 
-1. HACS > menu ⋮ > **Dépôts personnalisés** : URL `https://github.com/msdevio/nuki_pro`, catégorie **Intégration**.
-2. Cherchez **Nuki Pro** dans HACS, téléchargez-le, puis redémarrez Home Assistant.
+Nuki Pro fait partie de la bibliothèque officielle de HACS :
+
+[![Ouvrir le dépôt Nuki Pro dans le HACS de votre Home Assistant.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=msdevio&repository=nuki_pro&category=integration)
+
+1. Dans HACS, cherchez **Nuki Pro**, ouvrez-le et choisissez **Télécharger**.
+2. Redémarrez Home Assistant.
 
 HACS signale ensuite les nouvelles versions (releases GitHub).
+
+Si Nuki Pro n'apparaît pas encore dans la recherche, ajoutez-le comme dépôt personnalisé : HACS > menu ⋮ > **Dépôts personnalisés**, URL `https://github.com/msdevio/nuki_pro`, catégorie **Intégration**.
 
 ### Par copie
 

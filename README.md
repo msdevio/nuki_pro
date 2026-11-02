@@ -55,10 +55,16 @@ The attributes of the "Last …" sensors give the action, the trigger, the sourc
 
 ### With HACS (recommended)
 
-1. HACS > ⋮ menu > **Custom repositories**: URL `https://github.com/msdevio/nuki_pro`, type **Integration**.
-2. Search for **Nuki Pro** in HACS, download it, then restart Home Assistant.
+Nuki Pro is in the default HACS store:
+
+[![Open your Home Assistant instance and open the Nuki Pro repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=msdevio&repository=nuki_pro&category=integration)
+
+1. In HACS, search for **Nuki Pro**, open it and select **Download**.
+2. Restart Home Assistant.
 
 HACS then reports new versions (GitHub releases).
+
+If Nuki Pro does not show up in the search yet, add it as a custom repository: HACS > ⋮ menu > **Custom repositories**, URL `https://github.com/msdevio/nuki_pro`, type **Integration**.
 
 ### Manually
 
